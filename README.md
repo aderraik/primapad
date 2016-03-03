@@ -1,2 +1,4 @@
-# justapad
-It's just a pad.
+Before running
+
+Go to resources/static
+bower install
