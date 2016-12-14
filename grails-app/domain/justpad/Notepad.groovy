@@ -9,6 +9,6 @@ class Notepad {
     }
 
     static mapping = {
-    	conteudo sqlType: 'clob'
+    	conteudo sqlType: 'text'
     }
 }
