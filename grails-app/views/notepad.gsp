@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="layout" content="notepad" />
+        <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'notepad.label', default: 'Notepad')}" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
     </head>
@@ -22,8 +22,9 @@
                 <fieldset class="form">
                     <%=request.getRequestURL()%>
                     <g:textField name="chave"/>
-                    <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
-                </fieldset>
+                    %{--<g:actionSubmit name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />--}%
+					<g:submitButton name="create" class="save" value="Go" />
+				</fieldset>
             </g:form>
         </div>
     </body>
