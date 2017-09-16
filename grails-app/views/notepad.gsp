@@ -21,14 +21,12 @@
 
             <g:form action="save" controller="notepad" class="form-inline" role="form">
                 <fieldset class="form">
-                    <%=request.getRequestURL()%>
+                    %{--<%=request.getRequestURL()%>--}%
+                    www.justapad.com/
                     <g:textField name="chave" class="form-control" placeholder="Name a new notebook"/>
-                    %{--<g:actionSubmit name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />--}%
 					<g:submitButton name="create" class="btn btn-warning btn-lg" value="Go!" />
 				</fieldset>
             </g:form>
-
-
         </div>
     </body>
 </html>

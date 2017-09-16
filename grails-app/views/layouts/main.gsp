@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <!-- Fixed navbar -->
+    <!-- Title Bar -->
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -48,7 +48,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Already a member?</a></li>
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
         </div>
     </div>
 
@@ -57,16 +57,15 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Take notes anywhere, anytime & in any device<br/></h1>
-                    <g:layoutBody/>
-                </div><!-- /col-lg-6 -->
+                    <!-- Create notebook bar -->
+                    <h2><g:layoutBody/></h2>
+                </div>
                 <div class="col-lg-6">
                     <asset:image src="ipad-hand.png" class="img-responsive"/>
-                    %{--<img class="img-responsive" src="assets/img/ipad-hand.png" alt="">--}%
-                </div><!-- /col-lg-6 -->
-
-            </div><!-- /row -->
-        </div><!-- /container -->
-    </div><!-- /headerwrap -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row mt centered">
@@ -74,32 +73,28 @@
                 <h1>Your free online notepad<br/>Looks Wonderful Now.</h1>
                 <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
             </div>
-        </div><!-- /row -->
+        </div>
 
         <div class="row mt centered">
             <div class="col-lg-4">
                 <asset:image src="ser01.png" width="180" alt=""/>
-                %{--<img src="assets/img/ser01.png" width="180" alt="">--}%
                 <h4>No login required</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            </div><!--/col-lg-4 -->
+            </div>
 
             <div class="col-lg-4">
                 <asset:image src="ser02.png" width="180" alt=""/>
-                %{--<img src="assets/img/ser02.png" width="180" alt="">--}%
                 <h4>Your note is auto-saved</h4>
                 <p>Never lose your notes againLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-            </div><!--/col-lg-4 -->
+            </div>
 
             <div class="col-lg-4">
                 <asset:image src="ser03.png" width="180" alt=""/>
-                %{--<img src="assets/img/ser03.png" width="180" alt="">--}%
                 <h4>Available in any device</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-
-            </div><!--/col-lg-4 -->
-        </div><!-- /row -->
-    </div><!-- /container -->
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row mt centered">
@@ -107,7 +102,7 @@
                 <h1>Flatty is for Everyone.</h1>
                 <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
             </div>
-        </div><!-- /row -->
+        </div>
 
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
@@ -123,26 +118,24 @@
                     <div class="carousel-inner">
                         <div class="item active">
                             <asset:image src="p01.png"/>
-                            %{--<img src="assets/img/p01.png" alt="">--}%
                         </div>
                         <div class="item">
                             <asset:image src="p02.png"/>
-                            %{--<img src="assets/img/p02.png" alt="">--}%
                         </div>
                         <div class="item">
                             <asset:image src="p03.png"/>
-                            %{--<img src="assets/img/p03.png" alt="">--}%
                         </div>
                     </div>
                 </div>
-            </div><!-- /col-lg-8 -->
-        </div><!-- /row -->
-    </div><! --/container -->
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <hr>
-        <p class="centered">Created by Visian Systems - 2017</p>
-    </div><!-- /container -->
+        <p class="centered">
+            © <a href="http://www.visiansystems.com">Visian Systems</a> <g:formatDate format="yyyy" date="${new Date()}"/>. All Rights Reserved.</p>
+    </div>
 
     <div class="footer" role="contentinfo"></div>
 
