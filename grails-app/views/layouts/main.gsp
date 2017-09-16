@@ -38,7 +38,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><b>JUSTAPAD</b></a>
+
+                <a class="navbar-brand" href="#">
+                    <asset:image src="logo.png" width="32" alt=""/>
+                    <b>JUSTAPAD</b>
+                </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -48,17 +52,97 @@
         </div>
     </div>
 
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
+    <div id="headerwrap">
         <div class="container">
-            <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">
-                <ul class="nav navbar-nav navbar-right">
-                    <g:pageProperty name="page.nav" />
-                </ul>
-            </div>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Take notes anywhere, anytime & in any device<br/></h1>
+                    <g:layoutBody/>
+                </div><!-- /col-lg-6 -->
+                <div class="col-lg-6">
+                    <asset:image src="ipad-hand.png" class="img-responsive"/>
+                    %{--<img class="img-responsive" src="assets/img/ipad-hand.png" alt="">--}%
+                </div><!-- /col-lg-6 -->
 
-    <g:layoutBody/>
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </div><!-- /headerwrap -->
+
+    <div class="container">
+        <div class="row mt centered">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h1>Your free online notepad<br/>Looks Wonderful Now.</h1>
+                <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+            </div>
+        </div><!-- /row -->
+
+        <div class="row mt centered">
+            <div class="col-lg-4">
+                <asset:image src="ser01.png" width="180" alt=""/>
+                %{--<img src="assets/img/ser01.png" width="180" alt="">--}%
+                <h4>No login required</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            </div><!--/col-lg-4 -->
+
+            <div class="col-lg-4">
+                <asset:image src="ser02.png" width="180" alt=""/>
+                %{--<img src="assets/img/ser02.png" width="180" alt="">--}%
+                <h4>Your note is auto-saved</h4>
+                <p>Never lose your notes againLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            </div><!--/col-lg-4 -->
+
+            <div class="col-lg-4">
+                <asset:image src="ser03.png" width="180" alt=""/>
+                %{--<img src="assets/img/ser03.png" width="180" alt="">--}%
+                <h4>Available in any device</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+
+            </div><!--/col-lg-4 -->
+        </div><!-- /row -->
+    </div><!-- /container -->
+
+    <div class="container">
+        <div class="row mt centered">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h1>Flatty is for Everyone.</h1>
+                <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+            </div>
+        </div><!-- /row -->
+
+        <div class="row mt centered">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <asset:image src="p01.png"/>
+                            %{--<img src="assets/img/p01.png" alt="">--}%
+                        </div>
+                        <div class="item">
+                            <asset:image src="p02.png"/>
+                            %{--<img src="assets/img/p02.png" alt="">--}%
+                        </div>
+                        <div class="item">
+                            <asset:image src="p03.png"/>
+                            %{--<img src="assets/img/p03.png" alt="">--}%
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /col-lg-8 -->
+        </div><!-- /row -->
+    </div><! --/container -->
+
+    <div class="container">
+        <hr>
+        <p class="centered">Created by Visian Systems - 2017</p>
+    </div><!-- /container -->
 
     <div class="footer" role="contentinfo"></div>
 

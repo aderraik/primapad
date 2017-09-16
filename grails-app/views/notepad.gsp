@@ -18,14 +18,17 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form action="save" controller="notepad">
+
+            <g:form action="save" controller="notepad" class="form-inline" role="form">
                 <fieldset class="form">
                     <%=request.getRequestURL()%>
-                    <g:textField name="chave"/>
+                    <g:textField name="chave" class="form-control" placeholder="Name a new notebook"/>
                     %{--<g:actionSubmit name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />--}%
-					<g:submitButton name="create" class="save" value="Go" />
+					<g:submitButton name="create" class="btn btn-warning btn-lg" value="Go!" />
 				</fieldset>
             </g:form>
+
+
         </div>
     </body>
 </html>
