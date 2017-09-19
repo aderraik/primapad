@@ -92,8 +92,13 @@ a:after {
      border-bottom-width: 10px;
 }
 
+.navbar-notepad {
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 3px rgba(12,13,14,0.1), 0 4px 20px rgba(12,13,14,0.035), 0 1px 1px rgba(12,13,14,0.025);
+}
+
 .navbar-default {
-	background-color: #3498db;
+    /*border-top: 3px solid #3498db;*/
+    background-color: #3498db;
 	border-color: transparent;
 }
 
@@ -132,15 +137,13 @@ i {
 
 /* HeaderWrap */
 #headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
 	background-color: #3498db;
 	margin-top: -20px;
-	padding-top:200px;
-	background-attachment: relative;
+	padding-top:150px;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -150,6 +153,12 @@ i {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #headerwrap {
+        padding-top:30px;
+    }
 }
 
 #headerwrap h1 {

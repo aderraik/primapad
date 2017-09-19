@@ -40,15 +40,15 @@
                 </button>
 
                 <a class="navbar-brand" href="#">
-                    <asset:image src="logo.png" width="32" alt=""/>
+                    <asset:image src="logo.png" width="42" alt=""/>
                     <b>JUSTAPAD</b>
                 </a>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Already a member?</a></li>
-                </ul>
-            </div>
+            %{--<div class="navbar-collapse collapse">--}%
+                %{--<ul class="nav navbar-nav navbar-right">--}%
+                    %{--<li><a href="#">Already a member?</a></li>--}%
+                %{--</ul>--}%
+            %{--</div>--}%
         </div>
     </div>
 

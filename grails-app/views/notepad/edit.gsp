@@ -77,7 +77,7 @@
 
 <!-- Title Bar -->
 <div class="header">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-notepad" role="navigation">
         <div id="logo">
             <div class="container">
                 <a href="/">
