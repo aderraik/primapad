@@ -81,7 +81,7 @@
         <div id="logo">
             <div class="container">
                 <a href="/">
-                    <asset:image src="logo.png" width="32" style="margin-right: 5px;" alt=""/>
+                    <asset:image src="logo.png" width="36" style="margin-right: 5px;" alt=""/>
                     <b><span style="color: #fff;">JUSTAPAD</span></b>
                 </a>
                 <span style="color: #fff;"> - your free online notepad</span>
