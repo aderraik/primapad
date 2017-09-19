@@ -75,26 +75,22 @@
 
 <body>
 
+<!-- Title Bar -->
 <div class="header">
-    <!-- Title Bar -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div id="logo">
             <div class="container">
                 <a href="/">
-                    <asset:image src="logo.png" width="32" alt=""/>
+                    <asset:image src="logo.png" width="32" style="margin-right: 5px;" alt=""/>
                     <b><span style="color: #fff;">JUSTAPAD</span></b>
                 </a>
                 <span style="color: #fff;"> - your free online notepad</span>
             </div>
         </div>
-
-            %{--<a class="navbar-brand" href="#">--}%
-                %{--<asset:image src="logo.png" width="32" alt=""/>--}%
-                %{--<b>JUSTAPAD</b>--}%
-            %{--</a>--}%
-        %{--</div>--}%
     </nav>
 </div>
+
+<!-- Notepad -->
 <div id="edit-notepad" class="container notepad" role="main">
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
@@ -115,6 +111,7 @@
     </g:form>
 </div>
 
+<!-- Footer -->
 <div class="container">
     <hr>
     <p class="centered">© <a href="http://www.visiansystems.com">Visian Systems</a> <g:formatDate format="yyyy" date="${new Date()}"/>. All Rights Reserved.</p>

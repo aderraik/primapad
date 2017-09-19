@@ -80,7 +80,7 @@ a:after {
 }
 
 .notepad {
-    margin-top: 45px;
+    margin-top: 80px;
 }
 
 .navbar {
@@ -88,7 +88,9 @@ a:after {
      margin-top: 0px;
      margin-bottom: 0px;
      border-radius: 0px;
- }
+     border-top-width: 12px;
+     border-bottom-width: 12px;
+}
 
 .navbar-default {
 	background-color: #3498db;
