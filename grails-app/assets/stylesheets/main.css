@@ -79,6 +79,17 @@ a:after {
     padding: 0;
 }
 
+.notepad {
+    margin-top: 45px;
+}
+
+.navbar {
+     min-height: 0px;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     border-radius: 0px;
+ }
+
 .navbar-default {
 	background-color: #3498db;
 	border-color: transparent;
@@ -88,9 +99,15 @@ a:after {
 	color: white;
 }
 
+.navbar-default .navbar-brand:hover,
+.navbar-brand:focus {
+    color: white;
+}
+
 .navbar-default .navbar-nav > li > a {
 	color: white;
 }
+
 
 /* Helpers */
 
