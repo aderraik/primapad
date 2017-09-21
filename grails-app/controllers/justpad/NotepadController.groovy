@@ -25,14 +25,9 @@ class NotepadController {
     }
 
     def edit(Notepad notepad) {
-        def notepadInstance = Notepad.findByChave(params.chave)
+        def notepadInstance = Notepad.findOrSaveByChave(params.chave)
 
-        if(notepadInstance){
-            respond notepadInstance
-        }else{
-            respond new Notepad(chave:params.chave).save(flush:true)
-        }
-
+        respond notepadInstance
     }
 
 

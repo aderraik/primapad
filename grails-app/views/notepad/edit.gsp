@@ -18,6 +18,9 @@
     <!-- Custom styles for this template -->
     <asset:stylesheet src="main.css"/>
 
+    <asset:javascript src="application.js"/>
+    <asset:javascript src="spring-websocket" />
+    
     <!-- Fonts from Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
 
@@ -122,8 +125,6 @@
 <div id="spinner" class="spinner" style="display:none;">
     <g:message code="spinner.alt" default="Loading&hellip;"/>
 </div>
-
-<asset:javascript src="application.js"/>
 
 </body>
 </html>
