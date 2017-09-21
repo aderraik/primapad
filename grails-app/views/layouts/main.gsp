@@ -91,7 +91,7 @@
     <div class="container">
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
-                <h1>Flatty is for Everyone.</h1>
+                <h1>Justapad is Everywhere</h1>
                 <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
             </div>
         </div>
