@@ -27,6 +27,9 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 
+    <asset:javascript src="application.js"/>
+    <asset:javascript src="spring-websocket" />
+
     <script type="text/javascript">
 
         var delay = (function(){
@@ -123,7 +126,7 @@
     <g:message code="spinner.alt" default="Loading&hellip;"/>
 </div>
 
-<asset:javascript src="application.js"/>
+
 
 </body>
 </html>
