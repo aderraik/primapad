@@ -33,22 +33,11 @@
     <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
                 <a class="navbar-brand" href="#">
                     <asset:image src="logo.png" width="42" alt=""/>
                     <b>JUSTAPAD</b>
                 </a>
             </div>
-            %{--<div class="navbar-collapse collapse">--}%
-                %{--<ul class="nav navbar-nav navbar-right">--}%
-                    %{--<li><a href="#">Already a member?</a></li>--}%
-                %{--</ul>--}%
-            %{--</div>--}%
         </div>
     </div>
 
@@ -57,10 +46,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <h1>Take notes anywhere, anytime & in any device<br/></h1>
-                    <!-- Create notebook bar -->
+                    <div class="row top-buffer"></div>
                     <h2><g:layoutBody/></h2>
+                    <div class="row top-buffer"></div>
                 </div>
-                <div class="col-lg-6">
+
+
+                    <div class="col-lg-6">
                     <asset:image src="ipad-hand.png" class="img-responsive"/>
                 </div>
             </div>
