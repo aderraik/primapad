@@ -5,6 +5,7 @@ class Notepad {
 	String chave, conteudo
 
     static constraints = {
+    	chave unique:true
     	conteudo nullable:true, maxSize:40000
     }
 
