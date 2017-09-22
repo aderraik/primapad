@@ -97,56 +97,53 @@
 </head>
 
 <body>
-
-<!-- Title Bar -->
-<div class="header">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-notepad" role="navigation">
-        <div id="logo">
-            <div class="container">
-                <a href="/">
-                    <asset:image src="logo.png" width="36" style="margin-right: 5px;" alt=""/>
-                    <b><span style="color: #fff;">JUSTAPAD</span></b>
-                </a>
-                <span style="color: #fff;"> - your free online notepad</span>
+    <!-- Title Bar -->
+    <div class="header">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-notepad" role="navigation">
+            <div id="logo">
+                <div class="container">
+                    <a href="/">
+                        <asset:image src="logo.png" width="36" style="margin-right: 5px;" alt=""/>
+                        <b><span style="color: #fff;">JUSTAPAD</span></b>
+                    </a>
+                    <span style="color: #fff;"> - your free online notepad</span>
+                </div>
             </div>
-        </div>
-    </nav>
-</div>
+        </nav>
+    </div>
 
-<!-- Notepad -->
-<div id="edit-notepad" class="container notepad" role="main">
-    <g:if test="${flash.message}">
-        <div class="message" role="status">${flash.message}</div>
-    </g:if>
-    <g:hasErrors bean="${this.notepad}">
-        <ul class="errors" role="alert">
-            <g:eachError bean="${this.notepad}" var="error">
-                <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
-            </g:eachError>
-        </ul>
-    </g:hasErrors>
-    <g:form resource="${this.notepad}" method="PUT">
-        <g:hiddenField name="version" value="${this.notepad?.version}" />
-        <fieldset class="form">
+    <!-- Notepad -->
+    <div id="edit-notepad" class="container notepad" role="main">
+        <g:if test="${flash.message}">
+            <div class="message" role="status">${flash.message}</div>
+        </g:if>
+        <g:hasErrors bean="${this.notepad}">
+            <ul class="errors" role="alert">
+                <g:eachError bean="${this.notepad}" var="error">
+                    <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
+                </g:eachError>
+            </ul>
+        </g:hasErrors>
+        <g:form resource="${this.notepad}" method="PUT">
+            <g:hiddenField name="version" value="${this.notepad?.version}" />
+            <fieldset class="form">
 
-            <g:textArea name="conteudo" value="${this.notepad?.conteudo}" id="conteudo" rows="18" class="txtArea"/>
-        </fieldset>
-    </g:form>
-</div>
+                <g:textArea name="conteudo" value="${this.notepad?.conteudo}" id="conteudo" rows="18" class="txtArea"/>
+            </fieldset>
+        </g:form>
+    </div>
 
-<!-- Footer -->
-<div class="container">
-    <hr>
-    <p class="centered">© <a href="http://www.visiansystems.com">Visian Systems</a> <g:formatDate format="yyyy" date="${new Date()}"/>. All Rights Reserved.</p>
-</div>
+    <!-- Footer -->
+    <div class="container">
+        <hr>
+        <p class="centered">© <a href="http://www.visiansystems.com">Visian Systems</a> <g:formatDate format="yyyy" date="${new Date()}"/>. All Rights Reserved.</p>
+    </div>
 
-<div class="footer" role="contentinfo"></div>
+    <div class="footer" role="contentinfo"></div>
 
-<div id="spinner" class="spinner" style="display:none;">
-    <g:message code="spinner.alt" default="Loading&hellip;"/>
-</div>
-
-
+    <div id="spinner" class="spinner" style="display:none;">
+        <g:message code="spinner.alt" default="Loading&hellip;"/>
+    </div>
 
 </body>
 </html>
