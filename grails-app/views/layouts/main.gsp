@@ -80,28 +80,28 @@
     <div class="container">
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
-                <h1>Your free online notepad<br/>Looks Wonderful Now.</h1>
-                <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+                <h1>Your free online notepad</h1>
+                <h3>Justpad was bespoke to be an easy fee online tool for everybody.  It's meant to help you never lose your notes again, and also to share snippets or ideas easily with your friends.</h3>
             </div>
         </div>
 
         <div class="row mt centered">
             <div class="col-lg-4">
-                <asset:image src="ser01.png" width="180" alt=""/>
+                <asset:image src="ser01.png" width="180" alt="No login required"/>
                 <h4>No login required</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p>Justpad is absolutely ready to go. Just access justapad.com/yourNoteName and start typing! You can also use slashes to personalise your folder.</p>
             </div>
 
             <div class="col-lg-4">
-                <asset:image src="ser02.png" width="180" alt=""/>
+                <asset:image src="ser02.png" width="180" alt="Your note is auto-saved"/>
                 <h4>Your note is auto-saved</h4>
-                <p>Never lose your notes againLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p>Never lose your notes again with Justapad. Your text is automatically saved every second and forever accessible from the URL you create for it.</p>
             </div>
 
             <div class="col-lg-4">
-                <asset:image src="ser03.png" width="180" alt=""/>
-                <h4>Available in any device</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <asset:image src="ser03.png" width="180" alt="Easy to share"/>
+                <h4>Easy to share</h4>
+                <p>Your notes are available in the cloud, so now it's easy to share your memos, ideas or any text with your friends. Just create your pad and send them the link!</p>
             </div>
         </div>
     </div>
@@ -109,8 +109,8 @@
     <div class="container">
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
-                <h1>Justapad is Everywhere</h1>
-                <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+                <h1>Your notes are Everywhere</h1>
+                <h3>Justapad was made for the cloud, meaning it's everywhere and anywhere. With your unique notepad URL, simple access it to your phone, tablet or notebook to continue typing your text wherever you have stopped it.</h3>
             </div>
         </div>
 
