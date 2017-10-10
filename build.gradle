@@ -58,7 +58,6 @@ dependencies {
     runtime 'mysql:mysql-connector-java:5.1.29'
 }
 
-
 assets {
     minifyJs = true
     minifyCss = true
