@@ -1,4 +1,4 @@
-package justpad
+package primapad
 
 class BootStrap {
 

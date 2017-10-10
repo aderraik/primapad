@@ -1,4 +1,4 @@
-package justpad
+package primapad
 
 import grails.test.mixin.*
 import spock.lang.*

@@ -1,4 +1,4 @@
-package justpad
+package primapad
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

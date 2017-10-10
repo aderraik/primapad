@@ -1,4 +1,4 @@
-package justpad
+package primapad
 
 import grails.transaction.Transactional
 import grails.converters.JSON

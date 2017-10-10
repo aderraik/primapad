@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: justpad
+        defaultPackage: primapad
     spring:
         transactionManagement:
             proxies: false
@@ -99,7 +99,7 @@ environments:
 #            dbCreate: create-drop
             dbCreate: update
 #            url: jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
-            url: jdbc:mysql://localhost:3306/justapad
+            url: jdbc:mysql://localhost:3306/primapad
     test:
         dataSource:
             dbCreate: update
@@ -108,7 +108,7 @@ environments:
     production:
         dataSource:
             dbCreate: update
-            url: jdbc:mysql://localhost:3306/justapad
+            url: jdbc:mysql://localhost:3306/primapad
             properties:
                 jmxEnabled: true
                 initialSize: 5

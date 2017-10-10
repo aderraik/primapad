@@ -30,7 +30,7 @@
     <meta name="layout" content="notepad" />
     <g:set var="entityName" value="${message(code: 'notepad.label', default: 'Notepad')}" />
 
-    <title>Justapad - ${request.forwardURI}</title>
+    <title>Primapad - ${request.forwardURI}</title>
 
     <!-- Bootstrap core CSS -->
     <asset:stylesheet src="bootstrap.css"/>
@@ -104,7 +104,7 @@
                 <div class="container">
                     <a href="/">
                         <asset:image src="logo.png" width="36" style="margin-right: 5px;" alt=""/>
-                        <b><span style="color: #fff;">JUSTAPAD</span></b>
+                        <b><span style="color: #fff;">PRIMAPAD</span></b>
                     </a>
                     <span style="color: #fff;"> - your free online notepad</span>
                 </div>

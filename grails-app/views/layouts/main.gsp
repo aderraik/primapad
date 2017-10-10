@@ -27,7 +27,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Justapad - Your free online notepad</title>
+    <title>Primapad - Your free online notepad</title>
 
     <!-- Bootstrap core CSS -->
     <asset:stylesheet src="bootstrap.css"/>
@@ -53,7 +53,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
                     <asset:image src="logo.png" width="42" alt=""/>
-                    <b>JUSTAPAD</b>
+                    <b>PRIMAPAD</b>
                 </a>
             </div>
         </div>
@@ -81,7 +81,7 @@
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
                 <h1>Your free online notepad</h1>
-                <h3>Justpad was bespoke to be an easy fee online tool for everybody.  It's meant to help you never lose your notes again, and also to share snippets or ideas easily with your friends.</h3>
+                <h3>Primapad was bespoke to be an easy fee online tool for everybody. It's meant to help you never lose your notes again, and also to share snippets or ideas easily with your friends.</h3>
             </div>
         </div>
 
@@ -89,13 +89,13 @@
             <div class="col-lg-4">
                 <asset:image src="ser01.png" width="180" alt="No login required"/>
                 <h4>No login required</h4>
-                <p>Justpad is absolutely ready to go. Just access justapad.com/yourNoteName and start typing! You can also use slashes to personalise your folder.</p>
+                <p>Primapad is absolutely ready to go. Just access primapad.com/yourNoteName and start typing! You can also use slashes to personalise your folder.</p>
             </div>
 
             <div class="col-lg-4">
                 <asset:image src="ser02.png" width="180" alt="Your note is auto-saved"/>
                 <h4>Your note is auto-saved</h4>
-                <p>Never lose your notes again with Justapad. Your text is automatically saved every second and forever accessible from the URL you create for it.</p>
+                <p>Never lose your notes again with Primapad. Your text is automatically saved every second and forever accessible from the URL you create for it.</p>
             </div>
 
             <div class="col-lg-4">
@@ -110,7 +110,7 @@
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
                 <h1>Your notes are Everywhere</h1>
-                <h3>Justapad was made for the cloud, meaning it's everywhere and anywhere. With your unique notepad URL, simple access it to your phone, tablet or notebook to continue typing your text wherever you have stopped it.</h3>
+                <h3>Primapad was made for the cloud, meaning it's everywhere and anywhere. With your unique notepad URL, simple access it to your phone, tablet or notebook to continue typing your text wherever you have stopped it.</h3>
             </div>
         </div>
 
