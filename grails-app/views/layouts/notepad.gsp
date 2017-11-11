@@ -13,8 +13,8 @@
     <g:layoutHead/>
 </head>
 <body>
-
     <g:layoutBody/>
+
 
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>
@@ -31,6 +31,5 @@
 
         gtag('config', 'UA-109491064-2');
     </script>
-
 </body>
 </html>
