@@ -107,6 +107,17 @@
     </div>
 
     <div class="container">
+        <div align="center">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Primapad - Ads -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-8224427185214297"
+                 data-ad-slot="5383832705"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <div class="row mt centered">
             <div class="col-lg-6 col-lg-offset-3">
                 <h1>Your notes are Everywhere</h1>
@@ -142,6 +153,17 @@
     </div>
 
     <div class="container">
+        <div align="center">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- Primapad - Ads -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-8224427185214297"
+                 data-ad-slot="5383832705"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
         <hr>
         <p class="centered">© <a href="http://www.visiansystems.com">Visian Systems</a> <g:formatDate format="yyyy" date="${new Date()}"/>. All Rights Reserved.</p>
     </div>
@@ -153,6 +175,16 @@
     </div>
 
     <asset:javascript src="application.js"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109491064-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109491064-1');
+    </script>
 
 </body>
 </html>

@@ -13,8 +13,8 @@
     <g:layoutHead/>
 </head>
 <body>
-
     <g:layoutBody/>
+
 
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>
@@ -22,5 +22,14 @@
 
     <asset:javascript src="application.js"/>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109491064-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-109491064-2');
+    </script>
 </body>
 </html>
