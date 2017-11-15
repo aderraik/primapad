@@ -9,7 +9,7 @@ echo -n 'Stopping '
 if [[ -f $PID_FILE ]]; then
 	mypid=`cat $PID_FILE`;
 	# Send a SIGINT signal to stop
-	kill -1 $mypid;
+	kill $mypid;
 	while [[ `ps -p $mypid > /dev/null;echo $?` -eq '0' ]]; do 
 		echo -n '.'; 
 		sleep 1; 
