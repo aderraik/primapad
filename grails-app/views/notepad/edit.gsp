@@ -134,14 +134,15 @@
     </div>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container" style="margin-top: 10px;">
         <div align="center">
+            <!-- Adsense -->
             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Primapad - Ads -->
             <ins class="adsbygoogle"
-                 style="display:inline-block;width:728px;height:90px"
+                 style="display:block"
                  data-ad-client="ca-pub-8224427185214297"
-                 data-ad-slot="5383832705"></ins>
+                 data-ad-slot="4146636606"
+                 data-ad-format="auto"></ins>
             <script>
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
